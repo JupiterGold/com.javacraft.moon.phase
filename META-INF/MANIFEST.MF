@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Phase
+Bundle-SymbolicName: com.javacraft.moon.phase
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: JAVACRAFT
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
