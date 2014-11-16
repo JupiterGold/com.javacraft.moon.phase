@@ -21,8 +21,8 @@ public class YahooDownload
   public static void main ( String args[] ) throws Exception
   {
 	  String sSymbol = "GLD" ;
-	  URL oURL = new URL ( "http://ichart.finance.yahoo.com/table.csv?s=" + sSymbol + "&a=10&b=18&c=2012&d=00&e=31&f=2014&g=d&ignore=.csv" ) ;
-//	  URL oURL = new URL ( "file:/Users/walter/Documents/workspacev13/com.javacraft.moon.phase/src/GLD.txt") ;
+	  URL oURL = new URL ( "http://ichart.finance.yahoo.com/table.csv?s=" + sSymbol + "&a=10&b=18&c=2012&d=11&e=31&f=2014&g=d&ignore=.csv" ) ;
+//	  URL oURL = new URL ( "file://c:/tmp/GLD.txt") ;
       URLConnection uCon = oURL.openConnection();
       InputStream is = uCon.getInputStream();
       BufferedReader oBR = new BufferedReader ( new InputStreamReader ( is )) ;
